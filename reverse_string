@@ -1,0 +1,24 @@
+package com.practice.javacodes;
+
+import java.util.Scanner;
+
+public class reverseString {
+    public static void main(String args[])
+    {
+        System.out.println("enter the number");
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        sc.nextLine();
+        char [] ch=new char[n];
+        String st=sc.nextLine();
+        for(int i=0;i<n;i++)
+        {
+            ch[i]=st.charAt(i);
+        }
+        for(int i=n-1;i>=0;i--)
+        {
+            System.out.print(ch[i]);
+        }
+    }
+
+}
