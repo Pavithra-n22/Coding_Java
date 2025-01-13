@@ -1,0 +1,23 @@
+package com.practice.javacodes.interview;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Driver {
+    public static void main(String[] args) {
+        List<Student> list = new ArrayList<>();
+        list.add(new Student("Abhay",24,"Delhi","A"));
+        list.add(new Student("Sanjay",27,"Delhi","B"));
+        list.add(new Student("Sunil",23,"Delhi","D"));
+        list.add(new Student("Ama",24,"Delhi","C"));
+        list.add(new Student("RRam",23,"Delhi","C"));
+        // Q1. Group it based on division
+        // Q2. it should be sorted based on age and names
+
+
+
+
+    }
+
+}
